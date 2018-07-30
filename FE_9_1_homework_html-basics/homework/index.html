@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <!-- <pre></pre> -->
+        <div id="content" role="main">
+          <div><img src="logo.png" alt="logo"></div>
+          <h1>HTML Elements</h1>
+          <!-- line -->
+          <hr/>
+          <!-- Navigation -->
+          <nav> 
+            <a href="#">Home</a>
+            <a href="#">Headers</a>
+            <a href="#">Table</a>
+            <a href="#">List</a>
+            <a href="#">Text formats</a>
+            <a href="#">Blockquotes</a>
+          </nav>
+          <!-- line -->
+          <hr>
+          <div><p>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header</p></div>
+
+          <h2>Header 2</h2>
+          <h3>Header 3</h3>
+          <h4>Header 4</h4>
+          <h5>Header 5</h5>
+          <h6>Header 6</h6>
+          <!-- Table -->
+          <div><h2>Table</h2></div>
+          <table>
+            <tr>
+              <th>Header</th>  
+              <th>Header</th>  
+              <th>Header</th>  
+            </tr>
+            <tr>
+              <td><b>Strong</b></td>
+              <td>CO<sub>2</sub></td>
+              <td><a href="#">Some link</a></td>
+            </tr>
+            <tr>
+              <td><i>Italic</i></td>
+              <td><abbr>Abbreviation</abbr></td>
+              <td><del>Delete</del></td>
+            </tr>
+            <tr>
+              <td><u>Underline.</u></td>
+              <td>5<sup>3</sup>=125</td>
+              <td><ins>Inserted</ins></td>
+            </tr>
+          </table>
+          <!-- Unordered List -->
+          <div><h2>Unordered List</h2></div>
+          <ul>
+            <li>List item 1
+              <li>List item 2
+                <ul>
+                  <li>Some nested list item 1</li>
+                </ul>
+                <li>List item 3
+              </li>
+            <!-- </li> -->
+          </ul>
+          <!-- Ordered List -->
+          <div><h2>Ordered List</h2></div>
+          <ol>
+            <li> List item 1</li>
+            <li>List item 2
+              <ol type="A">
+                <li>Some nested list item 1</li>
+              </ol>
+            </li>
+            <li>List item 3</li>
+          </ol>
+          <!-- Definition List -->
+          <div><h3>Definition List</h3> </div>
+          <dl>
+            <dt>defines terms 1</dt>
+            <dd>description 1</dd>
+          </dl>
+          <dl>
+            <dt>defines terms 2</dt>
+            <dd>description 2</dd>
+          </dl>
+          <!-- Details -->
+          <div><h2>Details</h2></div>
+          <details open><summary>Some details element (open)</summary>
+            <p>Here are more details about the details.</p>
+          </details>
+          <details>
+            <summary>Some details element (close)</summary>
+            <p>Here are more details about the details.</p>
+          </details>
+          <!-- line -->
+          <hr>
+          <!-- Text formats -->
+          <div>
+            <h2>Text formats</h2>
+          </div>
+          <article>
+            <p><strong>Article Text</strong></p>
+            <h2>Article Title</h2>
+            Article description
+          </article>
+          <br>
+          <!-- Preformatted Text -->
+          <div>
+            <h3>Preformatted Text</h3>
+          </div>
+          
+ <pre>
+<b>Text</b>
+in a <b>pre</b> element
+  is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks
+</pre>
+          <div>
+            <!-- Code -->
+            <h3>Code</h3>
+          </div>
+          <code>
+            <!-- <pre> -->
+              .wrapper {<br>
+              display: flex;<br>
+              vertical-align: middle;<br>
+              justify-content: center;<br>
+            }
+          <!-- </pre> -->
+        </code>
+
+        <div>
+          <h2>Blockquotes</h2>
+        </div>
+        <span>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</span>
+        <br>
+        <br>
+        <blockquote>
+          <p>"If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago."<br>            
+            <a href="#">Elon Musk</a></p>
+          </blockquote>
+
+          <footer>© Copyright Epam Systems</footer>
+          <!-- TODO: Content goes here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
