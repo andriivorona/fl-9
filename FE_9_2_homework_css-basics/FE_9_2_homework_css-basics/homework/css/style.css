@@ -1,0 +1,159 @@
+
+.tm-sidebar{
+	box-shadow: 0px 2px 14px 3px #888888;
+}
+
+.tm-nav-item:nth-child(1){
+	border-bottom-style: dotted;
+	color:silver;
+}
+
+.tm-nav-item:nth-child(2){
+	border-bottom-style: dotted;
+	color:silver;
+}
+
+.tm-nav-item:nth-child(3){
+	border-bottom-style: dotted;
+	color:silver;
+}
+
+.tm-content-box{
+	box-shadow: 0px 2px 14px 3px #888888;
+	overflow: hidden;
+}
+
+.tm-banner, section {
+	position: relative;
+}
+
+.tm-banner::before, section:nth-child(2)::before,  section:nth-child(3)::before, section:nth-child(5)::before, section:nth-child(6)::before {
+	content: ""; 
+	position: absolute; 
+	left: 0; 
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 30px solid #08d0eb; 
+	border-right: 120px solid transparent;
+}
+
+.thumbnail{
+	border-radius: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.first_letter{
+	color: #76cdd7;
+	font-size: 30px;
+}
+
+.tm-box-bg-title:hover{
+	color: #ffffff;
+	background-color: #9cf;
+}
+
+#column{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;   
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+
+#column p{
+	line-height: 30px;
+}
+
+h2.tm-section-title{
+	color:blue;
+}
+
+.chan_col h2{
+	color:gainsboro;
+	letter-spacing: 5px;
+}
+
+.Fon_st{
+	font-style:italic;
+}
+
+.pad h2{
+	color:blue;
+}
+
+.pad a:visited{
+	color:silver;
+}
+.pad a:hover{
+	color:#0cf;
+	border-bottom:1px solid #0cf;
+}
+
+.text::after{
+	content:"New";
+	color:red;
+	vertical-align:super;
+	font-size: 12px;
+}
+.flex-2-col:nth-child(2) {
+	box-shadow: none;
+}
+.box:nth-last-child(2){
+	background-color:hsl(0, 0%, 95%);
+}
+.box:nth-last-child(4){
+	background-color:hsl(0, 0%, 95%);
+}
+.box:nth-last-child(6){
+	background-color:hsl(0, 0%, 95%);
+}
+
+.first_lette{
+	color:#000;
+	font-size: 30px;
+}
+.colors_re h2{
+	color:red;
+}
+
+#contact_name{
+	color:red;
+}
+
+.mandatory-field:after{
+	content: "*";
+	color:red;
+}
+
+#contact_email{
+	color:red;
+}
+
+#contact_subject{
+	color:red;
+}
+
+#contact_message{
+	color:red;
+}
+
+.btn{
+	color: red;
+}
+
+.btn:hover{
+	background: cornflowerblue;
+}
+
