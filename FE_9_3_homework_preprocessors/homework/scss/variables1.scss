@@ -1,0 +1,46 @@
+$fz:1vmax;
+$lh:1.77vmax;
+$fw:400;
+$ff:'Helvetica', sans-serif;
+$c:#08d0eb;
+$primary-color: #617d8a;
+
+p{
+	font-size: $fz;
+	line-height: $lh;
+	font-weight: $fw;
+	font-family: $ff;
+	color: $primary-color;
+}
+
+body{
+	font-family: $ff;
+	font-size: $fz;
+	line-height: $lh;
+}
+
+img{
+	max-width: 100%;
+	height: auto; 
+}
+
+header>nav>a{
+	color:$c;
+}
+
+article{
+	background-color: hsl(0, 0%, 95%);
+}
+
+#contact{
+	
+	h1{
+		text-align: right;
+		color:#08d0eb;
+		height: 5px;
+	}
+	h4{
+		text-align: right;
+		color:#08d0eb;
+	}
+}

@@ -1,0 +1,29 @@
+p {
+  font-size: 1vmax;
+  line-height: 1.77vmax;
+  font-weight: 400;
+  font-family: "Helvetica", sans-serif;
+  color: #617d8a; }
+
+  body { 
+    font-family: "Helvetica", sans-serif;
+    font-size: 1vmax;
+    line-height: 1.77vmax; }
+
+    img {
+      max-width: 100%;
+      height: auto; }
+
+      header > nav > a {
+        color: #08d0eb; }
+
+        article {
+          background-color: #f2f2f2; }
+
+          #contact h1 {
+            text-align: right;
+            color: #08d0eb;
+            height: 5px; }
+            #contact h4 {
+              text-align: right;
+              color: #08d0eb; }

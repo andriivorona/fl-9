@@ -1,0 +1,92 @@
+$fz:1vmax;
+$lh:1.77vmax;
+$fw:400;
+$ff:'Palatino Linotype', sans-serif;
+$c: #fc5830;
+$primary-color: silver;
+
+
+p{
+	font-size: $fz + 0.2vmax;
+	line-height: $lh + 0.1vmax;
+	font-weight: $fw;
+	font-family: $ff;
+}
+
+body{
+	font-family: $ff;
+	font-size: $fz;
+	line-height: $lh;
+	background-color: #efefef;
+}
+
+img{
+	max-width: 100%;
+	height: auto; 
+}
+
+header>nav>a{
+	color:$c;
+}
+
+.btn_fl .btn{
+	background-color: $c;
+}
+.main-wrapper {
+	.toolbar{
+		input{
+			border:1px solid $c;
+			color:$c;
+			background:#efefef;
+			font-size: $fz;
+			font-family:$ff;
+		}
+		::-webkit-input-placeholder { color:$c; }
+		::-moz-placeholder          { color:$c; } 
+		:-moz-placeholder           { color:$c; } 
+		:-ms-input-placeholder      { color:$c; }
+	} 
+}
+
+article{
+	background-color:#ffffff;
+	.post-description{
+		color:$primary-color;
+		font-size: $fz - 0.1vmax;
+	}
+	h3{
+		color:#617d8a;
+	}
+	p{
+		color:#757575;
+	}
+}
+
+#about{
+	.about{
+	}
+	h1{
+		color:$c;
+		font-size: $fz + 0.8vmax;
+		text-transform: uppercase;
+	}
+	p{
+		color:#757575;
+		font-size: $fz + 0.3vmax;
+		font-family:$ff;
+	}
+}
+
+#contact{
+	.contact-form{
+	}
+	h1 {
+		color: $c;
+		height: 2px;
+	}
+	h4{
+		color: $c;
+		height: 5px;
+		margin-bottom: 30px;
+	}
+}
